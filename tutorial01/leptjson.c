@@ -2,6 +2,8 @@
 #include <assert.h>  /* assert() */
 #include <stdlib.h>  /* NULL */
 
+/*add a note by db.yang*/
+
 #define EXPECT(c, ch)       do { assert(*c->json == (ch)); c->json++; } while(0)
 
 typedef struct {
